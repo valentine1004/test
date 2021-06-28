@@ -1,0 +1,65 @@
+{
+    "folders": [
+      {
+        "path": "."
+      }
+    ],
+    "settings": {
+      "editor.defaultFormatter": "EditorConfig.EditorConfig",
+      "editor.formatOnSave": true,
+      "[vue]": {
+        "editor.formatOnSave": true,
+        "javascript.format.enable": true
+      },
+      "autoimport.semicolon": false,
+      "autoimport.showNotifications": true,
+      "editor.acceptSuggestionOnCommitCharacter": false,
+      "editor.codeActionsOnSave": {
+        "source.fixAll": true,
+        "source.fixAll.eslint": true
+      },
+      "editor.tabSize": 2,
+      "editor.wordWrap": "wordWrapColumn",
+      "editor.wordWrapColumn": 400,
+      "eslint.alwaysShowStatus": true,
+      "eslint.enable": true,
+      "eslint.format.enable": true,
+      "eslint.lintTask.enable": true,
+      "eslint.options": {
+        "extensions": [".js", ".vue"]
+      },
+      "eslint.run": "onSave",
+      "eslint.validate": [
+        {
+          "language": "vue",
+          "autoFix": true
+        },
+        "html",
+        "javascript"
+      ],
+      "files.autoSave": "onFocusChange",
+      "files.trimTrailingWhitespace": true,
+      "html.format.indentHandlebars": true,
+      "html.format.wrapLineLength": 0,
+      "javascript.format.enable": true,
+      "javascript.format.insertSpaceAfterConstructor": true,
+      "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+      "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+      "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+      "javascript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+      "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+      "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+      "javascript.preferences.quoteStyle": "single",
+      "javascript.suggest.completeFunctionCalls": true,
+      "prettier.bracketSpacing": false,
+      "sasslint.run": "onSave",
+      "scm.alwaysShowActions": true,
+      "typescript.preferences.quoteStyle": "single",
+      "typescript.validate.enable": false,
+      "typescript.tsdk": null,
+      "svg.preview.background": "black",
+      "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      }
+    }
+  }

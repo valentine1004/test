@@ -1,0 +1,73 @@
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s;
+}
+
+.fade-enter,
+.fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+
+.slide-left-enter-active,
+.slide-left-leave-active {
+  transition: 0.3s ease-out;
+}
+
+.slide-left-enter,
+.slide-left-leave-to {
+  transform: translateX(400px);
+}
+
+.fade-input-tips-enter-active,
+.fade-input-tips-leave-active {
+  transition: opacity 0.2s ease-in-out;
+}
+
+.fade-input-tips-enter,
+.fade-input-tips-leave-to {
+  opacity: 0;
+}
+
+.slide-enter-active {
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in;
+}
+
+.slide-leave-active {
+  transition-duration: 0.3s;
+  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
+
+.slide-enter-to,
+.slide-leave {
+  max-height: 100px;
+  overflow: hidden;
+}
+
+.slide-enter,
+.slide-leave-to {
+  overflow: hidden;
+  max-height: 0;
+}
+
+.slideFast-enter-active {
+  transition-duration: 0.1s;
+  transition-timing-function: ease-in;
+}
+
+.slideFast-leave-active {
+  transition-duration: 0.1s;
+  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
+
+.slideFast-enter-to,
+.slideFast-leave {
+  max-height: 100px;
+  overflow: hidden;
+}
+
+.slideFast-enter,
+.slideFast-leave-to {
+  overflow: hidden;
+  max-height: 0;
+}
